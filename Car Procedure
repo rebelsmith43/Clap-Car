@@ -1,0 +1,42 @@
+Parts List
+Arduino
+Arduino Motor Shield
+Breadboard
+2 DC Motors 
+HC-SR04 Proximity Sensor
+LM393 Sound Detector
+Magic Chassis
+Procedure
+Follow instructions to construct magic chassis
+*Attach battery
+ 
+Attach Arduino to chassis
+Attach Arduino motor shield to Arduino
+Attach breadboard to chassis
+The top platform of the vehicle comes with a lot of slots where things can be attached. To mount the Arduino board there I attached three standoffs with screws from underneath. I kept them a bit loose until I found the right positions that matched the mounting holes in the board. Unfortunately I could not find a combination of slots that allowed me to match all four mounting holes, so three had to do:
+ 
+The board ended up a tiny bit crooked with respect to the platform, but other than that it was pretty solid:
+ 
+I then needed to mount the breadboard in the front of the vehicle. The bottom of the breadboard has adhesive, but since I wasn't sure everything would work fine with this configuration I decided to simply attach it with a rubberband and keep the option to undo the whole thing without complications:
+ 
+Next carefully line up the pins on the motor shield with the Aduino pins and plug it in
+Run line from 5V pin on Arduino motor shield to breadboard 
+Connect VCC to voltage line on breadboard
+Run line from GND pin on Arduino motor shield to breadboard 
+
+HC-SR04 Proximity Sensor
+Plug HC-SR04 proximity sensor into breadboard facing forward* as far forward as possible
+Connect VCC to voltage line on breaboard
+Connect Trig to pin 7 on Arduino motor shield
+Connect Echo to pin 10 on Arduino motor shield 
+Connect GND to GND line on breadboard
+LM393 Sound Detector
+Connect +5V to voltage line on breadboard
+Connect OUT to pin 5 on Arduino motor shield 
+Connect GND to GND line on breadboard
+DC Motors 
+Connect red line of right DC motor to + pin on A side of blue block on Arduino motor shield
+Connect black line of right DC motor to – pin on A side of blue block on Arduino motor shield
+Right motor will need line extended with breadboard and extra lines to blue block
+Connect red line of left DC motor to + pin on B side of blue block on Arduino motor shield
+Connect black line of left DC motor to – pin on B side of blue block on Arduino motor shield
